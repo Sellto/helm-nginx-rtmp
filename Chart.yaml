@@ -1,0 +1,19 @@
+---
+apiVersion: "v2"
+name: nginx-rtmp
+appVersion: "0.0.1"
+version: 0.0.1
+description: Streaming server for OBS
+home: https://www.cetic.be
+icon: https://miro.medium.com/max/300/1*-ubHpYr7tSWW5pPiVJjfUA.png
+keywords:
+  - Streaming
+  - Video
+  - rtmp
+  - hls
+source:
+  - https://github.com/sellto/helm-nginx-rtmp
+maintainers:
+  - name: sellto
+    email: tom.selleslagh@cetic.be
+    url: https://github.com/sellto
