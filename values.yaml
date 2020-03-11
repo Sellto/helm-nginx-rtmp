@@ -13,6 +13,9 @@ fullnameOverride: ""
 
 service:
   type: NodePort
+  port:
+    rtmp: 1935
+    hls: 8080
   annotations: {}
   ## Set the LoadBalancer service type to internal only.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
