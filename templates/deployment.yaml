@@ -30,14 +30,6 @@ spec:
             - name: rtmp
               containerPort: 1935
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: rtmp
-          readinessProbe:
-            httpGet:
-              path: /
-              port: rtmp
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
